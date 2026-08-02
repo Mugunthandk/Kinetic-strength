@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-display: 'Syne', sans-serif;
+    --font-mono: 'Space Grotesk', monospace;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    background-color: #090909;
+    color: #ffffff;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    font-weight: 800;
+  }
+
+  .font-mono-custom {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Bold Typography Theme Utilities */
+.text-bold-gradient {
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.4) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-bold-lime-gradient {
+  background: linear-gradient(180deg, #FFFFFF 0%, #C7FF00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glass-card-bold {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1.5rem; /* rounded-3xl */
+}
+
+.glass-card-bold-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-bold-hover:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(199, 255, 0, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.8), 0 0 25px rgba(199, 255, 0, 0.15);
+}
+
+/* Neon Glow & Glassmorphism Utilities */
+.neon-border {
+  border: 1px solid rgba(199, 255, 0, 0.3);
+  box-shadow: 0 0 15px rgba(199, 255, 0, 0.15);
+}
+
+.neon-border-hover:hover {
+  border-color: rgba(199, 255, 0, 0.8);
+  box-shadow: 0 0 25px rgba(199, 255, 0, 0.35);
+}
+
+.neon-glow-lime {
+  text-shadow: 0 0 12px rgba(199, 255, 0, 0.6);
+}
+
+.neon-bg-glow {
+  box-shadow: 0 0 50px -10px rgba(199, 255, 0, 0.25);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090909;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C7FF00;
+}
+
+/* Pulse Glow Animation */
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s infinite ease-in-out;
+}
