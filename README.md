@@ -4,20 +4,22 @@
 
 ### 💪 Premium Gym & Fitness Website
 
-Build Your Body. Build Your Future.
+**Build Your Body. Build Your Future.**
 
 Modern • Responsive • Fast • Interactive
 
-<img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react">
-<img src="https://img.shields.io/badge/TailwindCSS-4-38BDF8?style=for-the-badge&logo=tailwind-css">
-<img src="https://img.shields.io/badge/Vite-Latest-646CFF?style=for-the-badge&logo=vite">
-<img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge">
+<p>
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-4-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vite-Latest-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge"/>
+</p>
 
-### 🌐 Live Demo
+### 🌐 Live Website
 
-### https://kinetic-strength.vercel.app
+🔗 **https://kinetic-strength.vercel.app**
 
-⭐ Star this repository if you like the project!
+⭐ If you like this project, don't forget to star the repository!
 
 </div>
 
@@ -25,121 +27,132 @@ Modern • Responsive • Fast • Interactive
 
 # 📖 About
 
-**Kinetic Strength** is a modern Gym & Fitness web application designed to provide users with an engaging and premium digital fitness experience.
+**Kinetic Strength** is a modern, responsive, and feature-rich Gym & Fitness website built to deliver a premium digital experience. The application features a sleek dark theme, responsive layouts, smooth animations, membership plans, trainer profiles, workout schedules, secure authentication, and QR-based payments.
 
-The website combines elegant UI/UX, responsive layouts, smooth animations, and user-friendly navigation to help gyms showcase memberships, trainers, fitness programs, and more.
-
-Whether viewed on desktop, tablet, or mobile, Kinetic Strength delivers a seamless browsing experience.
+Designed with a focus on performance and user experience, Kinetic Strength works seamlessly across desktop, tablet, and mobile devices.
 
 ---
 
 # ✨ Features
 
-## 🎨 Modern Design
+## 🎨 Premium UI
 
-✔ Premium Dark Theme
-
-✔ Neon Green UI
-
-✔ Smooth Animations
-
-✔ Glassmorphism Effects
-
-✔ Attractive Hero Section
+- Modern Dark Theme
+- Neon Green Design
+- Smooth Animations
+- Interactive Components
+- Clean User Interface
+- Responsive Layout
 
 ---
 
 ## 👤 User Features
 
-✅ Secure Login
-
-✅ Membership Plans
-
-✅ Fitness Programs
-
-✅ Workout Schedule
-
-✅ Trainer Profiles
-
-✅ Testimonials
-
-✅ Contact Form
-
-✅ FAQ Section
-
-✅ QR Code Payment
-
-✅ Google Maps
-
-✅ Responsive Navigation
+- Secure Login
+- Membership Plans
+- Professional Trainers
+- Workout Schedule
+- Fitness Programs
+- Testimonials
+- Contact Form
+- FAQ Section
+- QR Code Payment
+- Google Maps Integration
+- Responsive Navigation
 
 ---
 
 ## ⚡ Performance
 
-🚀 Lightning Fast
-
-📱 Mobile Friendly
-
-💻 Cross Browser Compatible
-
-🎯 SEO Optimized
-
-♿ Accessible UI
-
-⚙ Clean Code Structure
+- Fast Loading
+- SEO Friendly
+- Mobile Responsive
+- Optimized Components
+- Clean Code Structure
+- Cross Browser Support
 
 ---
 
 # 📸 Screenshots
 
-## Home Page
+> Add your screenshots inside a folder named **screenshots**
 
-<img src="screenshots/home.png" width="100%">
+## Home
 
----
+```text
+screenshots/home.png
+```
+
+## About
+
+```text
+screenshots/about.png
+```
 
 ## Membership
 
-<img src="screenshots/membership.png" width="100%">
-
----
+```text
+screenshots/membership.png
+```
 
 ## Trainers
 
-<img src="screenshots/trainers.png" width="100%">
+```text
+screenshots/trainers.png
+```
 
----
+## Workout
+
+```text
+screenshots/workout.png
+```
 
 ## Payment
 
-<img src="screenshots/payment.png" width="100%">
+```text
+screenshots/payment.png
+```
 
 ---
 
 # 🛠 Tech Stack
 
-| Frontend | Styling | Build Tool | Deployment |
-|-----------|----------|------------|------------|
-| React.js | Tailwind CSS | Vite | Vercel |
+## Frontend
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+## Styling
+
+- Tailwind CSS
+
+## Build Tool
+
+- Vite
+
+## Deployment
+
+- Vercel
 
 ---
 
-# 📂 Folder Structure
+# 📂 Project Structure
 
-```
-kinetic-strength
+```text
+kinetic-strength/
 │
-├── public
+├── public/
 │
-├── src
-│   ├── assets
-│   ├── components
-│   ├── pages
-│   ├── layouts
-│   ├── hooks
-│   ├── utils
-│   ├── styles
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── layouts/
+│   ├── pages/
+│   ├── hooks/
+│   ├── styles/
+│   ├── utils/
 │   ├── App.jsx
 │   └── main.jsx
 │
@@ -150,39 +163,39 @@ kinetic-strength
 
 ---
 
-# 🚀 Installation
+# 🚀 Getting Started
 
-Clone Repository
+## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/kinetic-strength.git
+git clone https://github.com/Mugunthandk/kinetic-strength.git
 ```
 
-Move into project
+## Navigate to Project
 
 ```bash
 cd kinetic-strength
 ```
 
-Install Packages
+## Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run Development Server
+## Start Development Server
 
 ```bash
 npm run dev
 ```
 
-Production Build
+## Production Build
 
 ```bash
 npm run build
 ```
 
-Preview Build
+## Preview Production Build
 
 ```bash
 npm run preview
@@ -190,64 +203,45 @@ npm run preview
 
 ---
 
-# 🌟 Why Kinetic Strength?
+# 🚀 Future Improvements
 
-✔ Modern Fitness Website
-
-✔ Premium User Interface
-
-✔ Beginner Friendly Code
-
-✔ Fast Performance
-
-✔ Easy Customization
-
-✔ Mobile Responsive
-
-✔ Scalable Project Structure
-
-✔ Clean Components
-
----
-
-# 🚀 Future Updates
-
-- 🔐 Firebase Authentication
-- 💳 Stripe Payment Gateway
-- 📅 Personal Trainer Booking
-- 🤖 AI Workout Recommendation
-- 🥗 Diet Planner
-- 📈 Progress Tracker
-- 📹 Online Training Sessions
-- 📱 PWA Support
-- 🌍 Multi-language Support
+- Firebase Authentication
+- Admin Dashboard
+- Online Membership Registration
+- AI Workout Recommendation
+- AI Diet Planner
+- Personal Trainer Booking
+- Stripe/Razorpay Payment
+- Progress Tracking
+- Mobile Application
+- Progressive Web App (PWA)
 
 ---
 
 # 📊 Project Highlights
 
 | Feature | Status |
-|---------|--------|
+|----------|--------|
 | Responsive Design | ✅ |
+| Modern UI | ✅ |
 | Login System | ✅ |
 | Membership Plans | ✅ |
-| Trainers | ✅ |
-| QR Payments | ✅ |
-| Contact Page | ✅ |
+| Trainer Profiles | ✅ |
+| Workout Schedule | ✅ |
+| QR Payment | ✅ |
+| Contact Form | ✅ |
 | Google Maps | ✅ |
-| Modern UI | ✅ |
-| Animations | ✅ |
-| SEO Friendly | ✅ |
+| Performance Optimized | ✅ |
 
 ---
 
 # 🤝 Contributing
 
-Contributions are always welcome!
+Contributions are welcome!
 
 1. Fork the repository
 
-2. Create a new branch
+2. Create a feature branch
 
 ```bash
 git checkout -b feature-name
@@ -256,7 +250,7 @@ git checkout -b feature-name
 3. Commit your changes
 
 ```bash
-git commit -m "Added new feature"
+git commit -m "Add new feature"
 ```
 
 4. Push to GitHub
@@ -271,29 +265,43 @@ git push origin feature-name
 
 # 📄 License
 
-Distributed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
 # 👨‍💻 Developer
 
+<div align="center">
+
 ## Mugunthan DK
 
-Full Stack Developer • React Developer • AI/ML Enthusiast
+### Full Stack Developer • Web Developer • AI/ML Enthusiast
 
-🌐 Portfolio : https://your-portfolio.vercel.app
+📧 **Email**
 
-💼 LinkedIn : https://linkedin.com/in/your-profile
+**mugunthandkz@gmail.com**
 
-📧 Email : your-email@example.com
+💼 **LinkedIn**
+
+**https://linkedin.com/in/mugunthan-dk-4638aa379**
+
+🌐 **Live Website**
+
+**https://kinetic-strength.vercel.app**
+
+🚀 **GitHub**
+
+**https://github.com/Mugunthandk**
 
 ---
 
-<div align="center">
+### 💬 Connect with Me
 
-## ⭐ If you like this project
+I'm always open to collaborating on exciting projects, discussing new technologies, and contributing to open-source communities.
 
-### Give it a ⭐ on GitHub
+Feel free to connect with me!
+
+⭐ **If you enjoyed this project, please consider giving it a Star!**
 
 Made with ❤️ by **Mugunthan DK**
 
